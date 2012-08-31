@@ -1,0 +1,135 @@
+Tddc
+v7
+r0
+t276636904.981599
+cCheck dependencies
+cCompileC build/ddc.build/Debug/ddc.build/Objects-normal/x86_64/ddc.o /Users/jon/Projects/ddc/ddc.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLibtool /Users/jon/Projects/ddc/build/Debug/libddc.a normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004A12050C0000000000000475
+t1242694924
+s1141
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004A4D52090000000000012048
+t1246581257
+s73800
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/i2c/IOI2CInterface.h
+c000000004A73D9420000000000002C00
+t1249106242
+s11264
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A4D5233000000000016E510
+t1246581299
+s1500432
+
+N/Users/jon/Projects/ddc/build/Debug/libddc.a
+t1254944104
+s9672
+
+N/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/Objects-normal/x86_64/ddc.LinkFileList
+c000000004ACCED680000000000000054
+t1254944104
+s84
+
+N/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/Objects-normal/x86_64/ddc.o
+t1254944104
+s9468
+
+N/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/StaticAnalyzer/normal/x86_64/ddc.plist
+t1254943141
+s7948
+
+N/Users/jon/Projects/ddc/ddc.c
+c000000004ACCEB9B0000000000000B65
+t1254943643
+s2917
+i<IOKit/IOKitLib.h>
+i<ApplicationServices/ApplicationServices.h>
+i<IOKit/i2c/IOI2CInterface.h>
+i<assert.h>
+i<stdio.h>
+i"ddc.h"
+
+N/Users/jon/Projects/ddc/ddc.h
+c000000004ACCE9C900000000000000EC
+t1254943177
+s236
+
+CAnalyze /Users/jon/Projects/ddc/ddc.c
+s276635940.844866
+e276635941.048261
+r1
+xAnalyze
+x/Users/jon/Projects/ddc/ddc.c
+o/Users/jon/Projects/ddc/ddc.c:50:2:{50:8-50:72}: warning: Value stored to 'err' is never read
+o         err = CGGetActiveDisplayList(num_displays, display_ids, &num_displays);
+o         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:44:2:{44:8-44:54}: warning: Value stored to 'err' is never read
+o         err = CGGetActiveDisplayList(0, NULL, &num_displays);
+o         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:56:3:{56:18-56:32}: warning: Value stored to 'secDisplayID' is never read
+o                 secDisplayID = display_ids[1];
+o                 ^              ~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:55:3:{55:18-55:32}: warning: Value stored to 'priDisplayID' is never read
+o                 priDisplayID = display_ids[0];
+o                 ^              ~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:61:3:{61:18-61:32}: warning: Value stored to 'secDisplayID' is never read
+o                 secDisplayID = display_ids[0];
+o                 ^              ~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:60:3:{60:18-60:32}: warning: Value stored to 'priDisplayID' is never read
+o                 priDisplayID = display_ids[1];
+o                 ^              ~~~~~~~~~~~~~~
+o6 diagnostics generated.
+lSLF07#2@37"Analyze /Users/jon/Projects/ddc/ddc.c276635940#276635941#0(1295"/Users/jon/Projects/ddc/ddc.c:50:2:{50:8-50:72}: warning: Value stored to 'err' is never read         err = CGGetActiveDisplayList(num_displays, display_ids, &num_displays);         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:44:2:{44:8-44:54}: warning: Value stored to 'err' is never read         err = CGGetActiveDisplayList(0, NULL, &num_displays);         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:56:3:{56:18-56:32}: warning: Value stored to 'secDisplayID' is never read                 secDisplayID = display_ids[1];                 ^              ~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:55:3:{55:18-55:32}: warning: Value stored to 'priDisplayID' is never read                 priDisplayID = display_ids[0];                 ^              ~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:61:3:{61:18-61:32}: warning: Value stored to 'secDisplayID' is never read                 secDisplayID = display_ids[0];                 ^              ~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:60:3:{60:18-60:32}: warning: Value stored to 'priDisplayID' is never read                 priDisplayID = display_ids[1];                 ^              ~~~~~~~~~~~~~~6 diagnostics generated.6(0@35"Value stored to 'err' is never read276635941#18446744073709551615#0#1(21@35"Value stored to 'err' is never read276635941#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c276635922#50#2#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c276635922#50#8#50#71#35"Value stored to 'err' is never read6@29"/Users/jon/Projects/ddc/ddc.c276635922#50#2#0#0#10"Dead store0(15"Dead assignment0@35"Value stored to 'err' is never read276635941#18446744073709551615#0#1(21@35"Value stored to 'err' is never read276635941#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c276635922#44#2#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c276635922#44#8#44#53#35"Value stored to 'err' is never read6@29"/Users/jon/Projects/ddc/ddc.c276635922#44#2#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'secDisplayID' is never read276635941#18446744073709551615#0#1(21@44"Value stored to 'secDisplayID' is never read276635941#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c276635922#56#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c276635922#56#18#56#31#44"Value stored to 'secDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c276635922#56#3#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'priDisplayID' is never read276635941#18446744073709551615#0#1(21@44"Value stored to 'priDisplayID' is never read276635941#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c276635922#55#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c276635922#55#18#55#31#44"Value stored to 'priDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c276635922#55#3#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'secDisplayID' is never read276635941#18446744073709551615#0#1(21@44"Value stored to 'secDisplayID' is never read276635941#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c276635922#61#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c276635922#61#18#61#31#44"Value stored to 'secDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c276635922#61#3#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'priDisplayID' is never read276635941#18446744073709551615#0#1(21@44"Value stored to 'priDisplayID' is never read276635941#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c276635922#60#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c276635922#60#18#60#31#44"Value stored to 'priDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c276635922#60#3#0#0#10"Dead store0(15"Dead assignment0#0#29"/Users/jon/Projects/ddc/ddc.c4300882208#1085"    cd /Users/jon/Projects/ddc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-generated-files.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-own-target-headers.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-all-target-headers.hmap -iquote /Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-project-headers.hmap -F/Users/jon/Projects/ddc/build/Debug -I/Users/jon/Projects/ddc/build/Debug/include -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/DerivedSources --analyze /Users/jon/Projects/ddc/ddc.c -o /Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/StaticAnalyzer/normal/x86_64/ddc.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies276636904#276636904#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/ddc.build/Debug/ddc.build/Objects-normal/x86_64/ddc.o /Users/jon/Projects/ddc/ddc.c normal x86_64 c com.apple.compilers.gcc.4_2
+s276636904.597565
+e276636904.976634
+r1
+xCompileC
+xbuild/ddc.build/Debug/ddc.build/Objects-normal/x86_64/ddc.o
+x/Users/jon/Projects/ddc/ddc.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Compile /Users/jon/Projects/ddc/ddc.c276636904#276636904#0(0"0(0#0#29"/Users/jon/Projects/ddc/ddc.c4300882208#1031"    cd /Users/jon/Projects/ddc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-generated-files.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-own-target-headers.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-all-target-headers.hmap -iquote /Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/ddc-project-headers.hmap -F/Users/jon/Projects/ddc/build/Debug -I/Users/jon/Projects/ddc/build/Debug/include -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/DerivedSources -c /Users/jon/Projects/ddc/ddc.c -o /Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/Objects-normal/x86_64/ddc.o0#
+
+CLibtool /Users/jon/Projects/ddc/build/Debug/libddc.a normal x86_64
+s276636904.976733
+e276636904.981556
+r1
+xLibtool
+x/Users/jon/Projects/ddc/build/Debug/libddc.a
+xnormal
+xx86_64
+lSLF07#2@42"Libtool build/Debug/libddc.a normal x86_64276636904#276636904#0(0"0(0#0#0"4300882208#411"    cd /Users/jon/Projects/ddc    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddc/build/Debug -filelist /Users/jon/Projects/ddc/build/ddc.build/Debug/ddc.build/Objects-normal/x86_64/ddc.LinkFileList -framework IOKit -framework ApplicationServices -o /Users/jon/Projects/ddc/build/Debug/libddc.a0#
+

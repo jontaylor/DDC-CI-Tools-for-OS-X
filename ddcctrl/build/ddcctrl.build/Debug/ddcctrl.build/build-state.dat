@@ -1,0 +1,260 @@
+Tddcctrl
+v7
+r0
+t284233654.038124
+cCheck dependencies
+cCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o /Users/jon/Projects/ddcctrl/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004A12050C0000000000000475
+t1242694924
+s1141
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004A4D52090000000000012048
+t1246581257
+s73800
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/i2c/IOI2CInterface.h
+c000000004A73D9420000000000002C00
+t1249106242
+s11264
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004DF9F7CC000000000017B260
+t1308227532
+s1552992
+
+N/Users/jon/Projects/ddc/ddc.h
+c000000004AE47EF800000000000008F2
+t1256488696
+s2290
+i<IOKit/IOKitLib.h>
+i<ApplicationServices/ApplicationServices.h>
+i<IOKit/i2c/IOI2CInterface.h>
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/../ddc/build/Debug/libddc.a
+c000000004B40D51D00000000000043D0
+t1262540061
+s17360
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/build/Debug/ddcctrl
+t1262540070
+s324800
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/ddcctrl.LinkFileList
+c000000004AE44D6D00000000000000C7
+t1256476013
+s199
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o
+t1256476015
+s697772
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o
+t1256507124
+s460460
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/getopt_pp.cpp
+c000000004AE44CB60000000000001221
+t1256475830
+s4641
+i<unistd.h>
+i"getopt_pp.h"
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/getopt_pp.h
+c000000004AE44CB60000000000002DD9
+t1256475830
+s11737
+i<string>
+i<vector>
+i<map>
+i<sstream>
+
+N/Users/jon/Projects/ddc_projects/ddcctrl/main.cpp
+c000000004AE4C6F20000000000000E16
+t1256507122
+s3606
+i<iostream>
+i<sstream>
+i<string>
+i"ddc.h"
+i"getopt_pp.h"
+
+N/Users/jon/Projects/ddcctrl/../ddc/build/Debug/libddc.a
+c000000004B40D51D00000000000043D0
+t1262540061
+s17360
+
+N/Users/jon/Projects/ddcctrl/../libddc/build/Debug/liblibddc.a
+c000000004ACCCB410000000000002710
+t1254935361
+s10000
+
+N/Users/jon/Projects/ddcctrl/../libddc/libddc.h
+c000000004ACCC366000000000000009C
+t1254933350
+s156
+
+N/Users/jon/Projects/ddcctrl/build/Debug/ddcctrl
+t1262540070
+s324800
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/ddcctrl.LinkFileList
+c000000004ACCE7EA000000000000005F
+t1254942698
+s95
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o
+t1254942699
+s85700
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/ddcctrl.LinkFileList
+c000000004AE44D6D00000000000000C7
+t1256476013
+s199
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o
+t1256476015
+s697772
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o
+t1256507124
+s460460
+
+N/Users/jon/Projects/ddcctrl/getopt_pp.cpp
+c000000004AE44CB60000000000001221
+t1256475830
+s4641
+i<unistd.h>
+i"getopt_pp.h"
+
+N/Users/jon/Projects/ddcctrl/getopt_pp.h
+c000000004AE44CB60000000000002DD9
+t1256475830
+s11737
+i<string>
+i<vector>
+i<map>
+i<sstream>
+
+N/Users/jon/Projects/ddcctrl/main.cpp
+c000000004AE4C6F20000000000000E16
+t1256507122
+s3606
+i<iostream>
+i<sstream>
+i<string>
+i"ddc.h"
+i"getopt_pp.h"
+
+N/Users/jon/Projects/libddc/ddc.h
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies284233654#284233654#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o /Users/jon/Projects/ddcctrl/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s276635498.690925
+e276635499.155374
+r1
+xCompileC
+xbuild/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o
+x/Users/jon/Projects/ddcctrl/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/jon/Projects/ddcctrl/main.cpp276635498#276635499#0(0"0(0#0#36"/Users/jon/Projects/ddcctrl/main.cpp4300882208#1237"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Debug -I/Users/jon/Projects/ddcctrl/build/Debug/include -I/Users/jon/Projects/ddc -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources/i386 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/main.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o /Users/jon/Projects/ddc_projects/ddcctrl/getopt_pp.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s278168814.665838
+e278168815.623321
+r1
+xCompileC
+xbuild/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o
+x/Users/jon/Projects/ddcctrl/getopt_pp.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jon/Projects/ddcctrl/getopt_pp.cpp278168814#278168815#0(0"0(0#0#41"/Users/jon/Projects/ddcctrl/getopt_pp.cpp4300882208#1253"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Debug -I/Users/jon/Projects/ddcctrl/build/Debug/include -I/Users/jon/Projects/ddc -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/getopt_pp.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o0#
+
+CCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o /Users/jon/Projects/ddc_projects/ddcctrl/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o /Users/jon/Projects/ddcctrl/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s278199923.597043
+e278199924.184129
+r1
+xCompileC
+xbuild/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o
+x/Users/jon/Projects/ddcctrl/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/jon/Projects/ddcctrl/main.cpp278199923#278199924#0(155"/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'1(22@29"Unused variable 'control_int'278199924#75#80#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#21#0#21#0#19"unused variable '*'0(0#0#36"/Users/jon/Projects/ddcctrl/main.cpp4300882208#1243"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Debug -I/Users/jon/Projects/ddcctrl/build/Debug/include -I/Users/jon/Projects/ddc -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/main.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/jon/Projects/ddc_projects/ddcctrl/build/Debug/ddcctrl normal x86_64
+r0
+
+CLd /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl normal i386
+s276635499.155468
+e276635499.402764
+r0
+xLd
+x/Users/jon/Projects/ddcctrl/build/Debug/ddcctrl
+xnormal
+xi386
+old: warning: in /Users/jon/Projects/ddc/build/Debug/libddc.a, file is not of required architecture
+oUndefined symbols:
+o  "_test", referenced from:
+o      _main in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@52"Link /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl276635499#276635499#0(228"ld: warning: in /Users/jon/Projects/ddc/build/Debug/libddc.a, file is not of required architectureUndefined symbols:  "_test", referenced from:      _main in main.old: symbol(s) not foundcollect2: ld returned 1 exit status5(22@85"In /Users/jon/Projects/ddc/build/Debug/libddc.a, file is not of required architecture276635499#0#99#0(6@0"276635499#0#0#0#0#0"0(4@25""_test", referenced from:276635499#118#28#0(6@0"276635499#0#0#0#0#0"0(13@15"_main in main.o276635499#146#22#0(6@0"276635499#0#0#0#0#0"0(13@19"Symbol(s) not found276635499#168#24#0(6@0"276635499#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status276635499#192#36#0(6@0"276635499#0#0#0#0#0"0(0#0#0"4300882208#572"    cd /Users/jon/Projects/ddcctrl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddcctrl/build/Debug -L/Users/jon/Projects/ddc -L/Users/jon/Projects/ddcctrl/../libddc/build/Debug -L/Users/jon/Projects/ddcctrl/../ddc/build/Debug -F/Users/jon/Projects/ddcctrl/build/Debug -filelist /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/ddcctrl.LinkFileList -mmacosx-version-min=10.6 -lddc -o /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl1#
+
+CLd /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl normal x86_64
+s284232870.548245
+e284232870.876879
+r1
+xLd
+x/Users/jon/Projects/ddcctrl/build/Debug/ddcctrl
+xnormal
+xx86_64
+lSLF07#2@52"Link /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl284232870#284232870#0(0"0(0#0#0"4300885448#624"    cd /Users/jon/Projects/ddcctrl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddcctrl/build/Debug -L/Users/jon/Projects/ddc -L/Users/jon/Projects/ddcctrl/../libddc/build/Debug -L/Users/jon/Projects/ddcctrl/../ddc/build/Debug -F/Users/jon/Projects/ddcctrl/build/Debug -filelist /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/ddcctrl.LinkFileList -mmacosx-version-min=10.6 -lddc -framework IOKit -framework ApplicationServices -o /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl0#
+

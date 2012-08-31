@@ -1,0 +1,240 @@
+Tddcctrl
+v7
+r0
+t284232880.107923
+cCheck dependencies
+cCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/main.o /Users/jon/Projects/ddcctrl/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/main.o /Users/jon/Projects/ddcctrl/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/main.o /Users/jon/Projects/ddcctrl/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+cCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004A5C14A7000000000000563E
+t1247548583
+s22078
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A4D5233000000000016E510
+t1246581299
+s1500432
+
+N/Users/jon/Projects/ddcctrl/../ddc/build/Debug/libddc.a
+c000000004B40D51D00000000000043D0
+t1262540061
+s17360
+
+N/Users/jon/Projects/ddcctrl/build/Release/ddcctrl
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/Release/ddcctrl.dSYM
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/ddcctrl
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/ddcctrl.LinkFileList
+c000000004B40D52C00000000000000C7
+t1262540076
+s199
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/getopt_pp.o
+t1262540079
+s231788
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/ddcctrl
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/ddcctrl.LinkFileList
+c000000004B40D52C00000000000000C5
+t1262540076
+s197
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/getopt_pp.o
+t1262540080
+s237832
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/main.o
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/ddcctrl
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/ddcctrl.LinkFileList
+c000000004B40D52C00000000000000CB
+t1262540076
+s203
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o
+t1262540078
+s247292
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/getopt_pp.cpp
+c000000004AE44CB60000000000001221
+t1256475830
+s4641
+i<unistd.h>
+i"getopt_pp.h"
+
+N/Users/jon/Projects/ddcctrl/getopt_pp.h
+c000000004AE44CB60000000000002DD9
+t1256475830
+s11737
+i<string>
+i<vector>
+i<map>
+i<sstream>
+
+N/Users/jon/Projects/ddcctrl/main.cpp
+c000000004AE4C6F20000000000000E16
+t1256507122
+s3606
+i<iostream>
+i<sstream>
+i<string>
+i"ddc.h"
+i"getopt_pp.h"
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies284232876#284232876#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s284232878.208325
+e284232879.293332
+r1
+xCompileC
+xbuild/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/getopt_pp.o
+x/Users/jon/Projects/ddcctrl/getopt_pp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jon/Projects/ddcctrl/getopt_pp.cpp284232878#284232879#0(0"0(0#0#41"/Users/jon/Projects/ddcctrl/getopt_pp.cpp4300885448#1210"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Release -I/Users/jon/Projects/ddcctrl/build/Release/include -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources/i386 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/getopt_pp.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/getopt_pp.o0#
+
+CCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/main.o /Users/jon/Projects/ddcctrl/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s284232877.613610
+e284232878.208154
+r0
+xCompileC
+xbuild/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/main.o
+x/Users/jon/Projects/ddcctrl/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Projects/ddcctrl/main.cpp:4:17: error: ddc.h: No such file or directory
+o/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':
+o/Users/jon/Projects/ddcctrl/main.cpp:69: error: aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined
+o/Users/jon/Projects/ddcctrl/main.cpp:72: error: 'ddc_write' was not declared in this scope
+o/Users/jon/Projects/ddcctrl/main.cpp:83: error: aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined
+o/Users/jon/Projects/ddcctrl/main.cpp:86: error: 'ddc_read' was not declared in this scope
+o/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'
+lSLF07#2@44"Compile /Users/jon/Projects/ddcctrl/main.cpp284232877#284232878#0(681"/Users/jon/Projects/ddcctrl/main.cpp:4:17: error: ddc.h: No such file or directory/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':/Users/jon/Projects/ddcctrl/main.cpp:69: error: aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined/Users/jon/Projects/ddcctrl/main.cpp:72: error: 'ddc_write' was not declared in this scope/Users/jon/Projects/ddcctrl/main.cpp:83: error: aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined/Users/jon/Projects/ddcctrl/main.cpp:86: error: 'ddc_read' was not declared in this scope/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'6(4@32"Ddc.h: No such file or directory284232877#0#83#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#4#0#4#0#28"*: No such file or directory0(4@83"Aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined284232878#158#132#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#69#0#69#0#0"0(4@42"'ddc_write' was not declared in this scope284232878#290#91#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#72#0#72#0#34"'*' was not declared in this scope0(4@81"Aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined284232878#381#130#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#83#0#83#0#0"0(4@41"'ddc_read' was not declared in this scope284232878#511#90#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#86#0#86#0#34"'*' was not declared in this scope0(22@29"Unused variable 'control_int'284232878#601#80#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#21#0#21#0#19"unused variable '*'0(0#0#36"/Users/jon/Projects/ddcctrl/main.cpp4300885448#1200"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Release -I/Users/jon/Projects/ddcctrl/build/Release/include -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources/i386 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/main.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/main.o1#
+
+CCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s284232879.108102
+e284232880.107732
+r1
+xCompileC
+xbuild/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/getopt_pp.o
+x/Users/jon/Projects/ddcctrl/getopt_pp.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jon/Projects/ddcctrl/getopt_pp.cpp284232879#284232880#0(0"0(0#0#41"/Users/jon/Projects/ddcctrl/getopt_pp.cpp4300885448#1204"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Release -I/Users/jon/Projects/ddcctrl/build/Release/include -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources/ppc -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/getopt_pp.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/getopt_pp.o0#
+
+CCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/main.o /Users/jon/Projects/ddcctrl/main.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s284232878.338090
+e284232879.108012
+r0
+xCompileC
+xbuild/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/main.o
+x/Users/jon/Projects/ddcctrl/main.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Projects/ddcctrl/main.cpp:4:17: error: ddc.h: No such file or directory
+o/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':
+o/Users/jon/Projects/ddcctrl/main.cpp:69: error: aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined
+o/Users/jon/Projects/ddcctrl/main.cpp:72: error: 'ddc_write' was not declared in this scope
+o/Users/jon/Projects/ddcctrl/main.cpp:83: error: aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined
+o/Users/jon/Projects/ddcctrl/main.cpp:86: error: 'ddc_read' was not declared in this scope
+o/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'
+lSLF07#2@44"Compile /Users/jon/Projects/ddcctrl/main.cpp284232878#284232879#0(681"/Users/jon/Projects/ddcctrl/main.cpp:4:17: error: ddc.h: No such file or directory/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':/Users/jon/Projects/ddcctrl/main.cpp:69: error: aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined/Users/jon/Projects/ddcctrl/main.cpp:72: error: 'ddc_write' was not declared in this scope/Users/jon/Projects/ddcctrl/main.cpp:83: error: aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined/Users/jon/Projects/ddcctrl/main.cpp:86: error: 'ddc_read' was not declared in this scope/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'6(4@32"Ddc.h: No such file or directory284232878#0#83#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#4#0#4#0#28"*: No such file or directory0(4@83"Aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined284232879#158#132#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#69#0#69#0#0"0(4@42"'ddc_write' was not declared in this scope284232879#290#91#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#72#0#72#0#34"'*' was not declared in this scope0(4@81"Aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined284232879#381#130#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#83#0#83#0#0"0(4@41"'ddc_read' was not declared in this scope284232879#511#90#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#86#0#86#0#34"'*' was not declared in this scope0(22@29"Unused variable 'control_int'284232879#601#80#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#21#0#21#0#19"unused variable '*'0(0#0#36"/Users/jon/Projects/ddcctrl/main.cpp4300885448#1194"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Release -I/Users/jon/Projects/ddcctrl/build/Release/include -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources/ppc -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/main.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/main.o1#
+
+CCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o /Users/jon/Projects/ddcctrl/getopt_pp.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s284232876.626475
+e284232878.337985
+r1
+xCompileC
+xbuild/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o
+x/Users/jon/Projects/ddcctrl/getopt_pp.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Users/jon/Projects/ddcctrl/getopt_pp.cpp284232876#284232878#0(0"0(0#0#41"/Users/jon/Projects/ddcctrl/getopt_pp.cpp4300885448#1216"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Release -I/Users/jon/Projects/ddcctrl/build/Release/include -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/getopt_pp.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o0#
+
+CCompileC build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/main.o /Users/jon/Projects/ddcctrl/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s284232876.625531
+e284232877.613522
+r0
+xCompileC
+xbuild/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/main.o
+x/Users/jon/Projects/ddcctrl/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Projects/ddcctrl/main.cpp:4:17: error: ddc.h: No such file or directory
+o/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':
+o/Users/jon/Projects/ddcctrl/main.cpp:69: error: aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined
+o/Users/jon/Projects/ddcctrl/main.cpp:72: error: 'ddc_write' was not declared in this scope
+o/Users/jon/Projects/ddcctrl/main.cpp:83: error: aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined
+o/Users/jon/Projects/ddcctrl/main.cpp:86: error: 'ddc_read' was not declared in this scope
+o/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'
+lSLF07#2@44"Compile /Users/jon/Projects/ddcctrl/main.cpp284232876#284232877#0(681"/Users/jon/Projects/ddcctrl/main.cpp:4:17: error: ddc.h: No such file or directory/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':/Users/jon/Projects/ddcctrl/main.cpp:69: error: aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined/Users/jon/Projects/ddcctrl/main.cpp:72: error: 'ddc_write' was not declared in this scope/Users/jon/Projects/ddcctrl/main.cpp:83: error: aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined/Users/jon/Projects/ddcctrl/main.cpp:86: error: 'ddc_read' was not declared in this scope/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'6(4@32"Ddc.h: No such file or directory284232877#0#83#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#4#0#4#0#28"*: No such file or directory0(4@83"Aggregate 'DDCWriteCommand write_command' has incomplete type and cannot be defined284232877#158#132#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#69#0#69#0#0"0(4@42"'ddc_write' was not declared in this scope284232877#290#91#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#72#0#72#0#34"'*' was not declared in this scope0(4@81"Aggregate 'DDCReadCommand read_command' has incomplete type and cannot be defined284232877#381#130#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#83#0#83#0#0"0(4@41"'ddc_read' was not declared in this scope284232877#511#90#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#86#0#86#0#34"'*' was not declared in this scope0(22@29"Unused variable 'control_int'284232877#601#80#0(6@36"/Users/jon/Projects/ddcctrl/main.cpp278199922#21#0#21#0#19"unused variable '*'0(0#0#36"/Users/jon/Projects/ddcctrl/main.cpp4300885448#1206"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Release -I/Users/jon/Projects/ddcctrl/build/Release/include -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/main.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/main.o1#
+
+CCreateUniversalBinary /Users/jon/Projects/ddcctrl/build/Release/ddcctrl normal "x86_64 i386 ppc"
+r0
+
+CGenerateDSYMFile /Users/jon/Projects/ddcctrl/build/Release/ddcctrl.dSYM /Users/jon/Projects/ddcctrl/build/Release/ddcctrl
+r0
+
+CLd /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/ddcctrl normal i386
+r0
+
+CLd /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/ddcctrl normal ppc
+r0
+
+CLd /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/ddcctrl normal x86_64
+r0
+

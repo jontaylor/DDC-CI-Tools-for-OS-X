@@ -1,0 +1,11 @@
+000000004a5c14a700000000000069c6 dca9fcc209befee83b6a4e0292829897 ffffffffffffffffffffffffffffffff 237832 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/getopt_pp.o
+000000004a5c14a700000000000069c6 149432e5f286b3d12c7b509b80a527d4 ffffffffffffffffffffffffffffffff 231788 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/getopt_pp.o
+000000004a5c14a700000000000069c6 e83439287903c097ad8e887fa74026ab ffffffffffffffffffffffffffffffff 247292 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o
+0000000000008a4400000000000023cf 8a1f97b9e4a7c069da5e89ca96742ede ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/main.o
+0000000000008a4400000000000023cf 32831365b38309a29d0f68c268b67b9d ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/main.o
+0000000000008a4400000000000023cf 6ea9596ccdf94caaa57a0cf080a742f1 ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/main.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/Release/ddcctrl.dSYM
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/Release/ddcctrl
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/ddcctrl
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/ddcctrl
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/ddcctrl

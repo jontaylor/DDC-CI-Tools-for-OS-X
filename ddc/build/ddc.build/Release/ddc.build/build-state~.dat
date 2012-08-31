@@ -1,0 +1,250 @@
+Tddc
+v7
+r0
+t284229567.018449
+cCheck dependencies
+cCompileC build/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.o /Users/jon/Projects/ddc/ddc.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.o /Users/jon/Projects/ddc/ddc.c normal i386 c com.apple.compilers.gcc.4_2
+cLibtool /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a normal x86_64
+cCompileC build/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.o /Users/jon/Projects/ddc/ddc.c normal ppc c com.apple.compilers.gcc.4_2
+cLibtool /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a normal i386
+cAnalyze /Users/jon/Projects/ddc/ddc.c
+cAnalyze /Users/jon/Projects/ddc/ddc.c
+cLibtool /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a normal ppc
+cCreateUniversalBinary /Users/jon/Projects/ddc/build/Release/libddc.a normal "x86_64 i386 ppc"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004A12050C0000000000000475
+t1242694924
+s1141
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004A4D52090000000000012048
+t1246581257
+s73800
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/i2c/IOI2CInterface.h
+c000000004A73D9420000000000002C00
+t1249106242
+s11264
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+c000000004A12050E0000000000022140
+t1242694926
+s139584
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c000000004A4D5233000000000016E510
+t1246581299
+s1500432
+
+N/Users/jon/Projects/ddc/build/Release/libddc.a
+t1262536766
+s51716
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.LinkFileList
+c000000004B40C83D0000000000000054
+t1262536765
+s84
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.o
+t1262536766
+s15872
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a
+t1262536766
+s16240
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.LinkFileList
+c000000004B40C83D0000000000000053
+t1262536765
+s83
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.o
+t1262536766
+s16428
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a
+t1262536766
+s16800
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.LinkFileList
+c000000004B40C83D0000000000000056
+t1262536765
+s86
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.o
+t1262536766
+s18236
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a
+t1262536766
+s18608
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/StaticAnalyzer/normal/i386/ddc.plist
+t1262536767
+s10474
+
+N/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/StaticAnalyzer/normal/x86_64/ddc.plist
+t1262536766
+s10474
+
+N/Users/jon/Projects/ddc/ddc.c
+c000000004B3F800A000000000000211C
+t1262452746
+s8476
+i<assert.h>
+i<stdio.h>
+i"ddc.h"
+
+N/Users/jon/Projects/ddc/ddc.h
+c000000004AE47EF800000000000008F2
+t1256488696
+s2290
+i<IOKit/IOKitLib.h>
+i<ApplicationServices/ApplicationServices.h>
+i<IOKit/i2c/IOI2CInterface.h>
+
+CAnalyze /Users/jon/Projects/ddc/ddc.c
+s284229566.788830
+e284229567.018405
+r1
+xAnalyze
+x/Users/jon/Projects/ddc/ddc.c
+o/Users/jon/Projects/ddc/ddc.c:54:2:{54:7-54:57}: warning: Value stored to 'kr' is never read
+o         kr = IOI2CSendRequest( connect, kNilOptions, &request );
+o         ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:114:3:{114:8-114:58}: warning: Value stored to 'kr' is never read
+o                 kr = IOI2CSendRequest( connect, kNilOptions, &request );
+o                 ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:223:3:{223:18-223:32}: warning: Value stored to 'priDisplayID' is never read
+o                 priDisplayID = display_ids[1];
+o                 ^              ~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:219:3:{219:18-219:32}: warning: Value stored to 'secDisplayID' is never read
+o                 secDisplayID = display_ids[1];
+o                 ^              ~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:218:3:{218:18-218:32}: warning: Value stored to 'priDisplayID' is never read
+o                 priDisplayID = display_ids[0];
+o                 ^              ~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:224:3:{224:18-224:32}: warning: Value stored to 'secDisplayID' is never read
+o                 secDisplayID = display_ids[0];
+o                 ^              ~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:213:2:{213:8-213:72}: warning: Value stored to 'err' is never read
+o         err = CGGetActiveDisplayList(num_displays, display_ids, &num_displays);
+o         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Users/jon/Projects/ddc/ddc.c:207:2:{207:8-207:54}: warning: Value stored to 'err' is never read
+o         err = CGGetActiveDisplayList(0, NULL, &num_displays);
+o         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o8 diagnostics generated.
+lSLF07#2@37"Analyze /Users/jon/Projects/ddc/ddc.c284229566#284229567#0(1780"/Users/jon/Projects/ddc/ddc.c:54:2:{54:7-54:57}: warning: Value stored to 'kr' is never read         kr = IOI2CSendRequest( connect, kNilOptions, &request );         ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:114:3:{114:8-114:58}: warning: Value stored to 'kr' is never read                 kr = IOI2CSendRequest( connect, kNilOptions, &request );                 ^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:223:3:{223:18-223:32}: warning: Value stored to 'priDisplayID' is never read                 priDisplayID = display_ids[1];                 ^              ~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:219:3:{219:18-219:32}: warning: Value stored to 'secDisplayID' is never read                 secDisplayID = display_ids[1];                 ^              ~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:218:3:{218:18-218:32}: warning: Value stored to 'priDisplayID' is never read                 priDisplayID = display_ids[0];                 ^              ~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:224:3:{224:18-224:32}: warning: Value stored to 'secDisplayID' is never read                 secDisplayID = display_ids[0];                 ^              ~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:213:2:{213:8-213:72}: warning: Value stored to 'err' is never read         err = CGGetActiveDisplayList(num_displays, display_ids, &num_displays);         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/jon/Projects/ddc/ddc.c:207:2:{207:8-207:54}: warning: Value stored to 'err' is never read         err = CGGetActiveDisplayList(0, NULL, &num_displays);         ^     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~8 diagnostics generated.8(0@34"Value stored to 'kr' is never read284229567#18446744073709551615#0#1(21@34"Value stored to 'kr' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#54#2#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#54#7#54#56#34"Value stored to 'kr' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#54#2#0#0#10"Dead store0(15"Dead assignment0@34"Value stored to 'kr' is never read284229567#18446744073709551615#0#1(21@34"Value stored to 'kr' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#114#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#114#8#114#57#34"Value stored to 'kr' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#114#3#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'priDisplayID' is never read284229567#18446744073709551615#0#1(21@44"Value stored to 'priDisplayID' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#223#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#223#18#223#31#44"Value stored to 'priDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#223#3#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'secDisplayID' is never read284229567#18446744073709551615#0#1(21@44"Value stored to 'secDisplayID' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#219#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#219#18#219#31#44"Value stored to 'secDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#219#3#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'priDisplayID' is never read284229567#18446744073709551615#0#1(21@44"Value stored to 'priDisplayID' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#218#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#218#18#218#31#44"Value stored to 'priDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#218#3#0#0#10"Dead store0(15"Dead assignment0@44"Value stored to 'secDisplayID' is never read284229567#18446744073709551615#0#1(21@44"Value stored to 'secDisplayID' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#224#3#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#224#18#224#31#44"Value stored to 'secDisplayID' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#224#3#0#0#10"Dead store0(15"Dead assignment0@35"Value stored to 'err' is never read284229567#18446744073709551615#0#1(21@35"Value stored to 'err' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#213#2#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#213#8#213#71#35"Value stored to 'err' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#213#2#0#0#10"Dead store0(15"Dead assignment0@35"Value stored to 'err' is never read284229567#18446744073709551615#0#1(21@35"Value stored to 'err' is never read284229567#18446744073709551615#0#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#207#2#0#0#0"1(6@29"/Users/jon/Projects/ddc/ddc.c284145546#207#8#207#53#35"Value stored to 'err' is never read6@29"/Users/jon/Projects/ddc/ddc.c284145546#207#2#0#0#10"Dead store0(15"Dead assignment0#0#29"/Users/jon/Projects/ddc/ddc.c4300885448#1078"    cd /Users/jon/Projects/ddc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-generated-files.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-own-target-headers.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-all-target-headers.hmap -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-project-headers.hmap -F/Users/jon/Projects/ddc/build/Release -I/Users/jon/Projects/ddc/build/Release/include -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources/i386 -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources --analyze /Users/jon/Projects/ddc/ddc.c -o /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/StaticAnalyzer/normal/i386/ddc.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies284229565#284229565#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.o /Users/jon/Projects/ddc/ddc.c normal i386 c com.apple.compilers.gcc.4_2
+s284229565.930142
+e284229566.444793
+r1
+xCompileC
+xbuild/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.o
+x/Users/jon/Projects/ddc/ddc.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Projects/ddc/ddc.c: In function 'EDIDRead':
+o/Users/jon/Projects/ddc/ddc.c:320: warning: format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'
+o/Users/jon/Projects/ddc/ddc.c: In function 'display_connection':
+o/Users/jon/Projects/ddc/ddc.c:262: warning: control reaches end of non-void function
+lSLF07#2@37"Compile /Users/jon/Projects/ddc/ddc.c284229565#284229566#0(331"/Users/jon/Projects/ddc/ddc.c: In function 'EDIDRead':/Users/jon/Projects/ddc/ddc.c:320: warning: format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'/Users/jon/Projects/ddc/ddc.c: In function 'display_connection':/Users/jon/Projects/ddc/ddc.c:262: warning: control reaches end of non-void function2(22@81"Format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'284229566#55#126#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#320#0#320#0#56"format '*' expects type '*', but argument * has type '*'0(22@40"Control reaches end of non-void function284229566#246#85#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#262#0#262#0#40"control reaches end of non-void function0(0#0#29"/Users/jon/Projects/ddc/ddc.c4300885448#1024"    cd /Users/jon/Projects/ddc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-generated-files.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-own-target-headers.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-all-target-headers.hmap -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-project-headers.hmap -F/Users/jon/Projects/ddc/build/Release -I/Users/jon/Projects/ddc/build/Release/include -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources/i386 -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources -c /Users/jon/Projects/ddc/ddc.c -o /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.o0#
+
+CCompileC build/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.o /Users/jon/Projects/ddc/ddc.c normal ppc c com.apple.compilers.gcc.4_2
+s284229566.389341
+e284229566.947303
+r1
+xCompileC
+xbuild/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.o
+x/Users/jon/Projects/ddc/ddc.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Projects/ddc/ddc.c: In function 'EDIDRead':
+o/Users/jon/Projects/ddc/ddc.c:320: warning: format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'
+o/Users/jon/Projects/ddc/ddc.c: In function 'display_connection':
+o/Users/jon/Projects/ddc/ddc.c:262: warning: control reaches end of non-void function
+lSLF07#2@37"Compile /Users/jon/Projects/ddc/ddc.c284229566#284229566#0(331"/Users/jon/Projects/ddc/ddc.c: In function 'EDIDRead':/Users/jon/Projects/ddc/ddc.c:320: warning: format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'/Users/jon/Projects/ddc/ddc.c: In function 'display_connection':/Users/jon/Projects/ddc/ddc.c:262: warning: control reaches end of non-void function2(22@81"Format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'284229566#55#126#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#320#0#320#0#56"format '*' expects type '*', but argument * has type '*'0(22@40"Control reaches end of non-void function284229566#246#85#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#262#0#262#0#40"control reaches end of non-void function0(0#0#29"/Users/jon/Projects/ddc/ddc.c4300885448#1018"    cd /Users/jon/Projects/ddc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-generated-files.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-own-target-headers.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-all-target-headers.hmap -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-project-headers.hmap -F/Users/jon/Projects/ddc/build/Release -I/Users/jon/Projects/ddc/build/Release/include -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources/ppc -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources -c /Users/jon/Projects/ddc/ddc.c -o /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.o0#
+
+CCompileC build/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.o /Users/jon/Projects/ddc/ddc.c normal x86_64 c com.apple.compilers.gcc.4_2
+s284229565.929170
+e284229566.384773
+r1
+xCompileC
+xbuild/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.o
+x/Users/jon/Projects/ddc/ddc.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/jon/Projects/ddc/ddc.c: In function 'EDIDRead':
+o/Users/jon/Projects/ddc/ddc.c:320: warning: format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'
+o/Users/jon/Projects/ddc/ddc.c: In function 'display_connection':
+o/Users/jon/Projects/ddc/ddc.c:262: warning: control reaches end of non-void function
+lSLF07#2@37"Compile /Users/jon/Projects/ddc/ddc.c284229565#284229566#0(331"/Users/jon/Projects/ddc/ddc.c: In function 'EDIDRead':/Users/jon/Projects/ddc/ddc.c:320: warning: format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'/Users/jon/Projects/ddc/ddc.c: In function 'display_connection':/Users/jon/Projects/ddc/ddc.c:262: warning: control reaches end of non-void function2(22@81"Format '%lx' expects type 'long unsigned int', but argument 4 has type 'uint32_t'284229566#55#126#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#320#0#320#0#56"format '*' expects type '*', but argument * has type '*'0(22@40"Control reaches end of non-void function284229566#246#85#0(6@29"/Users/jon/Projects/ddc/ddc.c284145546#262#0#262#0#40"control reaches end of non-void function0(0#0#29"/Users/jon/Projects/ddc/ddc.c4300885448#1030"    cd /Users/jon/Projects/ddc    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-generated-files.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-own-target-headers.hmap -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-all-target-headers.hmap -iquote /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/ddc-project-headers.hmap -F/Users/jon/Projects/ddc/build/Release -I/Users/jon/Projects/ddc/build/Release/include -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/DerivedSources -c /Users/jon/Projects/ddc/ddc.c -o /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.o0#
+
+CCreateUniversalBinary /Users/jon/Projects/ddc/build/Release/libddc.a normal "x86_64 i386 ppc"
+s284229566.951830
+e284229566.957774
+r1
+xCreateUniversalBinary
+x/Users/jon/Projects/ddc/build/Release/libddc.a
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@69"CreateUniversalBinary build/Release/libddc.a normal "x86_64 i386 ppc"284229566#284229566#0(0"0(0#0#39"/Users/jon/Projects/ddc/x86_64 i386 ppc4300885448#382"    cd /Users/jon/Projects/ddc    /Developer/usr/bin/libtool -static /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a -o /Users/jon/Projects/ddc/build/Release/libddc.a0#
+
+CLibtool /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a normal i386
+s284229566.444883
+e284229566.448981
+r1
+xLibtool
+x/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a
+xnormal
+xi386
+lSLF07#2@82"Libtool build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a normal i386284229566#284229566#0(0"0(0#0#0"4300885448#453"    cd /Users/jon/Projects/ddc    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddc/build/Release -filelist /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.LinkFileList -framework IOKit -framework ApplicationServices -o /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a0#
+
+CLibtool /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a normal ppc
+s284229566.947393
+e284229566.951734
+r1
+xLibtool
+x/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a
+xnormal
+xppc
+lSLF07#2@80"Libtool build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a normal ppc284229566#284229566#0(0"0(0#0#0"4300885448#450"    cd /Users/jon/Projects/ddc    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only ppc -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddc/build/Release -filelist /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.LinkFileList -framework IOKit -framework ApplicationServices -o /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a0#
+
+CLibtool /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a normal x86_64
+s284229566.385095
+e284229566.389220
+r1
+xLibtool
+x/Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a
+xnormal
+xx86_64
+lSLF07#2@86"Libtool build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a normal x86_64284229566#284229566#0(0"0(0#0#0"4300885448#459"    cd /Users/jon/Projects/ddc    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddc/build/Release -filelist /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.LinkFileList -framework IOKit -framework ApplicationServices -o /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a0#
+

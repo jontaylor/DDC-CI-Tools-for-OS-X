@@ -1,0 +1,11 @@
+000000004a5c14a700000000000069c6 5a7b0a5185a069106a0cdb93a5c38c28 ffffffffffffffffffffffffffffffff 30104 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/getopt_pp.o
+000000004a5c14a700000000000069c6 8a731146dadf5a9ff8d68c59d21a64dc ffffffffffffffffffffffffffffffff 28092 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/getopt_pp.o
+000000004a5c14a700000000000069c6 1d39050c1553e33b1e2f25d94462e05e ffffffffffffffffffffffffffffffff 30500 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/getopt_pp.o
+0000000000008a4400000000000023cf 863235c9411d56143f15441d2c68d561 ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/main.o
+0000000000008a4400000000000023cf 04e5d178ad47932d13840388037c9cd9 ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/main.o
+0000000000008a4400000000000023cf 03d29fef781c19f09c023cec131603e1 ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/main.o
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/Release/ddcctrl
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/ppc/ddcctrl
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/i386/ddcctrl
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Release/ddcctrl.build/Objects-normal/x86_64/ddcctrl
+ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/ddcctrl/build/Release/ddcctrl.dSYM

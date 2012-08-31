@@ -1,0 +1,10 @@
+817661fbfea8313f16148e233bd07896 f514f8fc1a3898728e74feb0051c1f66 ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/controller.o
+817661fbfea82a3c16148e233bd0797c ca729f58c71dcffc43263990682b6b60 ffffffffffffffffffffffffffffffff 21064 /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/dccguiAppDelegate.o
+817661fbb597c06c16148e233bd07832 4b45cd03295bdb4a9d3bd559807b294e ffffffffffffffffffffffffffffffff 4976 /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/main.o
+000000000bfb4038000000000000016a 817661fbb597c06c16148e233bd079bf ffffffffffffffffffffffffffffffff 54212368 /var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch.gch
+000000004b3fec83000000000002db77 a11a48188669afaebd88c7737be22735 ffffffffffffffffffffffffffffffff 36526 /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/MainMenu.nib
+000000004b3fea50000000000000002d d99bcba3800d8b0dfb530024bccbfca4 ffffffffffffffffffffffffffffffff 92 /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/InfoPlist.strings
+00000000000000000000000000000000 ace5949dae4df9979bcebbbf881df728 ffffffffffffffffffffffffffffffff 883 /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Info.plist
+00000000000000000000000000000000 ace5949dae4df9979bcebbbf881df728 ffffffffffffffffffffffffffffffff 8 /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/PkgInfo
+ffffffffffffffffffffffffffffffff d745d0ea875ff378073110570a22878d ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/dccgui/build/Debug/dccgui.app
+ffffffffffffffffffffffffffffffff 221ef279e94dcfdac9b1315f5141a5ec ffffffffffffffffffffffffffffffff 0 /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/MacOS/dccgui

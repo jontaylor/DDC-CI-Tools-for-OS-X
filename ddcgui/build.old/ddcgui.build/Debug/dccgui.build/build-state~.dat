@@ -1,0 +1,214 @@
+Tdccgui
+v7
+r0
+t284174667.754582
+cCheck dependencies
+cProcessInfoPlistFile /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Info.plist dccgui-Info.plist
+cCopyStringsFile /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/jon/Projects/dccgui/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch.gch dccgui_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/main.o /Users/jon/Projects/dccgui/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/dccguiAppDelegate.o /Users/jon/Projects/dccgui/dccguiAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/controller.o /Users/jon/Projects/dccgui/controller.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/jon/Projects/dccgui/English.lproj/InfoPlist.strings
+c000000004B3FEA50000000000000002D
+t1262479952
+s45
+
+N/Users/jon/Projects/dccgui/English.lproj/MainMenu.xib
+c000000004B3FEC83000000000002DB77
+t1262480515
+s187255
+
+N/Users/jon/Projects/dccgui/build/Debug/dccgui.app
+t2
+s0
+
+N/Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Info.plist
+t1262481856
+s883
+
+N/Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/MacOS/dccgui
+t2
+s0
+
+N/Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/PkgInfo
+t1262481856
+s8
+
+N/Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1262481857
+s92
+
+N/Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/MainMenu.nib
+t1262481859
+s36526
+
+N/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/controller.o
+t2
+s0
+
+N/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/dccgui.LinkFileList
+c000000004B3FF1C0000000000000012D
+t1262481856
+s301
+
+N/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/dccguiAppDelegate.o
+t1262481867
+s21064
+
+N/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/main.o
+t1262481867
+s4976
+
+N/Users/jon/Projects/dccgui/controller.h
+c000000004B3FF1BB000000000000016F
+t1262481851
+s367
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Projects/dccgui/controller.m
+c000000004B3FEAB800000000000000C9
+t1262480056
+s201
+i"controller.h"
+
+N/Users/jon/Projects/dccgui/dccguiAppDelegate.h
+c000000004B3FEA50000000000000013E
+t1262479952
+s318
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Projects/dccgui/dccguiAppDelegate.m
+c000000004B3FEA500000000000000172
+t1262479952
+s370
+i"dccguiAppDelegate.h"
+
+N/Users/jon/Projects/dccgui/dccgui_Prefix.pch
+c000000004B3FEA50000000000000008F
+t1262479952
+s143
+i<Cocoa/Cocoa.h>
+
+N/Users/jon/Projects/dccgui/main.m
+c000000004B3FEA500000000000000102
+t1262479952
+s258
+i<Cocoa/Cocoa.h>
+
+N/var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch.gch
+t1262481867
+s54212368
+
+Ndccgui-Info.plist
+c000000004B3FEA5000000000000003EA
+t1262479952
+s1002
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies284174655#284174656#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/controller.o /Users/jon/Projects/dccgui/controller.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s284174667.659719
+e284174667.754493
+r0
+xCompileC
+xbuild/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/controller.o
+x/Users/jon/Projects/dccgui/controller.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/jon/Projects/dccgui/controller.m:9:
+o/Users/jon/Projects/dccgui/controller.h:19: error: expected ';' before '{' token
+lSLF07#2@47"Compile /Users/jon/Projects/dccgui/controller.m284174667#284174667#0(146"In file included from /Users/jon/Projects/dccgui/controller.m:9:/Users/jon/Projects/dccgui/controller.h:19: error: expected ';' before '{' token1(4@29"Expected ';' before '{' token284174667#65#81#2(7@61"In file included from /Users/jon/Projects/dccgui/controller.m284174667#18446744073709551615#0#0(6@39"/Users/jon/Projects/dccgui/controller.m284172856#9#0#9#0#0"0(13@72"Expected ';' before '{' token in /Users/jon/Projects/dccgui/controller.h284174667#18446744073709551615#0#0(6@39"/Users/jon/Projects/dccgui/controller.h284174651#19#0#19#0#0"0(6@39"/Users/jon/Projects/dccgui/controller.h284174651#19#0#19#0#19"expected * before *0(0#0#39"/Users/jon/Projects/dccgui/controller.m4300885448#1310"    cd /Users/jon/Projects/dccgui    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-generated-files.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-own-target-headers.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-all-target-headers.hmap -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-project-headers.hmap -F/Users/jon/Projects/dccgui/build/Debug -I/Users/jon/Projects/dccgui/build/Debug/include -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources/x86_64 -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources -include /var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch -c /Users/jon/Projects/dccgui/controller.m -o /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/controller.o1#
+
+CCompileC build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/dccguiAppDelegate.o /Users/jon/Projects/dccgui/dccguiAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s284174667.413805
+e284174667.659619
+r1
+xCompileC
+xbuild/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/dccguiAppDelegate.o
+x/Users/jon/Projects/dccgui/dccguiAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/jon/Projects/dccgui/dccguiAppDelegate.m284174667#284174667#0(0"0(0#0#46"/Users/jon/Projects/dccgui/dccguiAppDelegate.m4300885448#1324"    cd /Users/jon/Projects/dccgui    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-generated-files.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-own-target-headers.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-all-target-headers.hmap -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-project-headers.hmap -F/Users/jon/Projects/dccgui/build/Debug -I/Users/jon/Projects/dccgui/build/Debug/include -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources/x86_64 -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources -include /var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch -c /Users/jon/Projects/dccgui/dccguiAppDelegate.m -o /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/dccguiAppDelegate.o0#
+
+CCompileC build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/main.o /Users/jon/Projects/dccgui/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s284174667.412673
+e284174667.659408
+r1
+xCompileC
+xbuild/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/main.o
+x/Users/jon/Projects/dccgui/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/jon/Projects/dccgui/main.m284174667#284174667#0(0"0(0#0#33"/Users/jon/Projects/dccgui/main.m4300885448#1298"    cd /Users/jon/Projects/dccgui    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-generated-files.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-own-target-headers.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-all-target-headers.hmap -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-project-headers.hmap -F/Users/jon/Projects/dccgui/build/Debug -I/Users/jon/Projects/dccgui/build/Debug/include -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources/x86_64 -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources -include /var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch -c /Users/jon/Projects/dccgui/main.m -o /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/jon/Projects/dccgui/English.lproj/MainMenu.xib
+s284174656.166101
+e284174659.401033
+r1
+xCompileXIB
+x/Users/jon/Projects/dccgui/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib284174656#284174659#0(0"0(0#0#53"/Users/jon/Projects/dccgui/English.lproj/MainMenu.xib4300885448#290"    cd /Users/jon/Projects/dccgui    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/MainMenu.nib /Users/jon/Projects/dccgui/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s284174656.164669
+e284174657.718034
+r1
+xCopyStringsFile
+x/Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings284174656#284174657#0(0"0(0#0#58"/Users/jon/Projects/dccgui/English.lproj/InfoPlist.strings4300885448#340"    cd /Users/jon/Projects/dccgui    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Resources/English.lproj0#
+
+CLd /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/MacOS/dccgui normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Info.plist dccgui-Info.plist
+s284174656.134201
+e284174656.164576
+r1
+xProcessInfoPlistFile
+x/Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Info.plist
+xdccgui-Info.plist
+lSLF07#2@25"Process dccgui-Info.plist284174656#284174656#0(0"0(0#0#44"/Users/jon/Projects/dccgui/dccgui-Info.plist18859025310417008#271"    cd /Users/jon/Projects/dccgui    builtin-infoPlistUtility dccgui-Info.plist -genpkginfo /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/jon/Projects/dccgui/build/Debug/dccgui.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch.gch dccgui_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s284174659.401224
+e284174667.412487
+r1
+xProcessPCH
+x/var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch.gch
+xdccgui_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile dccgui_Prefix.pch284174659#284174667#0(0"0(0#0#44"/Users/jon/Projects/dccgui/dccgui_Prefix.pch4300885448#1217"    cd /Users/jon/Projects/dccgui    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-generated-files.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-own-target-headers.hmap -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-all-target-headers.hmap -iquote /Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/dccgui-project-headers.hmap -F/Users/jon/Projects/dccgui/build/Debug -I/Users/jon/Projects/dccgui/build/Debug/include -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources/x86_64 -I/Users/jon/Projects/dccgui/build/dccgui.build/Debug/dccgui.build/DerivedSources -c /Users/jon/Projects/dccgui/dccgui_Prefix.pch -o /var/folders/+g/+gmAmUBPHymgEd-ydLFstk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/dccgui_Prefix-hgwhkgjgjtuuiremkleovngvxrgk/dccgui_Prefix.pch.gch0#
+
+CTouch /Users/jon/Projects/dccgui/build/Debug/dccgui.app
+r0
+

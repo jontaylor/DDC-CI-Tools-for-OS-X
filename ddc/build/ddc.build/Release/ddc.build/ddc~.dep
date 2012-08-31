@@ -1,0 +1,9 @@
+000000004bf770b40000000000016d6c 5536c11fd9b98b9ad276f130f6db28f7 ffffffffffffffffffffffffffffffff 10474 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/StaticAnalyzer/normal/i386/ddc.plist
+000000004bf770b40000000000016d6c b0c80aa06d827ec32d353b086785eafd ffffffffffffffffffffffffffffffff 16428 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/ddc.o
+000000004bf770b40000000000016d6c 2db99da37d72a773b0fea56d58b75110 ffffffffffffffffffffffffffffffff 15872 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/ddc.o
+000000004bf770b40000000000016d6c 6b358aeb98f55c22b89b959103c2dbe4 ffffffffffffffffffffffffffffffff 10474 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/StaticAnalyzer/normal/x86_64/ddc.plist
+000000004bf770b40000000000016d6c 11e689afb6a5d80d805ce628e76a085e ffffffffffffffffffffffffffffffff 18236 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/ddc.o
+6b89f4642dc4978a531a8f443a91ca47 a659ba8b5c6d985b9d9d7849f191008b ffffffffffffffffffffffffffffffff 51716 /Users/jon/Projects/ddc/build/Release/libddc.a
+b0c80aa06c5cc4e12d353b086790432f 1df3685eac060d12435181cb31e673ae ffffffffffffffffffffffffffffffff 16800 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/ppc/libddc.a
+2db99da37cac1d51b0fea56d58a2f8c2 cb8bb926a7f610f26023dfaa9f406e6c ffffffffffffffffffffffffffffffff 16240 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/i386/libddc.a
+11e689afb77b622f805ce628e77fa18c 31663bb081bf31f56dffa9684c7acde4 ffffffffffffffffffffffffffffffff 18608 /Users/jon/Projects/ddc/build/ddc.build/Release/ddc.build/Objects-normal/x86_64/libddc.a

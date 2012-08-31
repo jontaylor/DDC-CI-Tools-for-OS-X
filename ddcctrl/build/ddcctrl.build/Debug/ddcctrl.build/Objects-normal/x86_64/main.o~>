@@ -1,0 +1,6 @@
+/Users/jon/Projects/ddcctrl/main.cpp:54:18: warning: missing terminating " character
+/Users/jon/Projects/ddcctrl/main.cpp: In function 'int main(int, char**)':
+/Users/jon/Projects/ddcctrl/main.cpp:54: error: missing terminating " character
+/Users/jon/Projects/ddcctrl/main.cpp:55: error: expected primary-expression before 'return'
+/Users/jon/Projects/ddcctrl/main.cpp:55: error: expected `;' before 'return'
+/Users/jon/Projects/ddcctrl/main.cpp:21: warning: unused variable 'control_int'

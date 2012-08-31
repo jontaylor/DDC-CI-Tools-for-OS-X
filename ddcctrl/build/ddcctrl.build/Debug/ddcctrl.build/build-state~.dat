@@ -1,0 +1,172 @@
+Tddcctrl
+v7
+r0
+t276636912.426050
+cCheck dependencies
+cCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o /Users/jon/Projects/ddcctrl/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.h
+c000000004A12050C0000000000000475
+t1242694924
+s1141
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h
+c000000004A4D52090000000000012048
+t1246581257
+s73800
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Headers/i2c/IOI2CInterface.h
+c000000004A73D9420000000000002C00
+t1249106242
+s11264
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004A5C14A60000000000000DCB
+t1247548582
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004A5C14A70000000000004174
+t1247548583
+s16756
+
+N/Users/jon/Projects/ddc/ddc.h
+c000000004ACCE9C900000000000000EC
+t1254943177
+s236
+
+N/Users/jon/Projects/ddcctrl/../ddc/build/Debug/libddc.a
+c000000004ACCED6800000000000025C8
+t1254944104
+s9672
+
+N/Users/jon/Projects/ddcctrl/../libddc/build/Debug/liblibddc.a
+c000000004ACCCB410000000000002710
+t1254935361
+s10000
+
+N/Users/jon/Projects/ddcctrl/../libddc/libddc.h
+c000000004ACCC366000000000000009C
+t1254933350
+s156
+
+N/Users/jon/Projects/ddcctrl/build/Debug/ddcctrl
+t2
+s0
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/ddcctrl.LinkFileList
+c000000004ACCE7EA000000000000005F
+t1254942698
+s95
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o
+t1254942699
+s85700
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/ddcctrl.LinkFileList
+c000000004ACCED6F0000000000000061
+t1254944111
+s97
+
+N/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o
+t1254944112
+s89784
+
+N/Users/jon/Projects/ddcctrl/main.cpp
+c000000004ACCE99600000000000000AD
+t1254943126
+s173
+i<iostream>
+i"ddc.h"
+
+N/Users/jon/Projects/libddc/ddc.h
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies276636911#276636911#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o /Users/jon/Projects/ddcctrl/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s276635498.690925
+e276635499.155374
+r1
+xCompileC
+xbuild/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o
+x/Users/jon/Projects/ddcctrl/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/jon/Projects/ddcctrl/main.cpp276635498#276635499#0(0"0(0#0#36"/Users/jon/Projects/ddcctrl/main.cpp4300882208#1237"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Debug -I/Users/jon/Projects/ddcctrl/build/Debug/include -I/Users/jon/Projects/ddc -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources/i386 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/main.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/main.o0#
+
+CCompileC build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o /Users/jon/Projects/ddcctrl/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s276636911.676207
+e276636912.396038
+r1
+xCompileC
+xbuild/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o
+x/Users/jon/Projects/ddcctrl/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/jon/Projects/ddcctrl/main.cpp276636911#276636912#0(0"0(0#0#36"/Users/jon/Projects/ddcctrl/main.cpp4300882208#1243"    cd /Users/jon/Projects/ddcctrl    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D_GLIBCXX_DEBUG=1 -D_GLIBCXX_DEBUG_PEDANTIC=1 -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-generated-files.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-own-target-headers.hmap -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-all-target-headers.hmap -iquote /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/ddcctrl-project-headers.hmap -F/Users/jon/Projects/ddcctrl/build/Debug -I/Users/jon/Projects/ddcctrl/build/Debug/include -I/Users/jon/Projects/ddc -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources/x86_64 -I/Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/DerivedSources -c /Users/jon/Projects/ddcctrl/main.cpp -o /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl normal i386
+s276635499.155468
+e276635499.402764
+r0
+xLd
+x/Users/jon/Projects/ddcctrl/build/Debug/ddcctrl
+xnormal
+xi386
+old: warning: in /Users/jon/Projects/ddc/build/Debug/libddc.a, file is not of required architecture
+oUndefined symbols:
+o  "_test", referenced from:
+o      _main in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@52"Link /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl276635499#276635499#0(228"ld: warning: in /Users/jon/Projects/ddc/build/Debug/libddc.a, file is not of required architectureUndefined symbols:  "_test", referenced from:      _main in main.old: symbol(s) not foundcollect2: ld returned 1 exit status5(22@85"In /Users/jon/Projects/ddc/build/Debug/libddc.a, file is not of required architecture276635499#0#99#0(6@0"276635499#0#0#0#0#0"0(4@25""_test", referenced from:276635499#118#28#0(6@0"276635499#0#0#0#0#0"0(13@15"_main in main.o276635499#146#22#0(6@0"276635499#0#0#0#0#0"0(13@19"Symbol(s) not found276635499#168#24#0(6@0"276635499#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status276635499#192#36#0(6@0"276635499#0#0#0#0#0"0(0#0#0"4300882208#572"    cd /Users/jon/Projects/ddcctrl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddcctrl/build/Debug -L/Users/jon/Projects/ddc -L/Users/jon/Projects/ddcctrl/../libddc/build/Debug -L/Users/jon/Projects/ddcctrl/../ddc/build/Debug -F/Users/jon/Projects/ddcctrl/build/Debug -filelist /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/i386/ddcctrl.LinkFileList -mmacosx-version-min=10.6 -lddc -o /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl1#
+
+CLd /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl normal x86_64
+s276636912.396130
+e276636912.426003
+r0
+xLd
+x/Users/jon/Projects/ddcctrl/build/Debug/ddcctrl
+xnormal
+xx86_64
+oUndefined symbols:
+o  "_IOObjectRelease", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_IORegistryEntryGetPath", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_IOFBGetI2CInterfaceCount", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_CGDisplayIOServicePort", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_CGMainDisplayID", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_CGGetActiveDisplayList", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o      _testddc in libddc.a(ddc.o)
+o  "_IOI2CInterfaceClose", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_IOI2CInterfaceOpen", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_IOFBCopyI2CInterfaceForBus", referenced from:
+o      _testddc in libddc.a(ddc.o)
+o  "_IOI2CSendRequest", referenced from:
+o      _testddc in libddc.a(ddc.o)
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@52"Link /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl276636912#276636912#0(892"Undefined symbols:  "_IOObjectRelease", referenced from:      _testddc in libddc.a(ddc.o)  "_IORegistryEntryGetPath", referenced from:      _testddc in libddc.a(ddc.o)  "_IOFBGetI2CInterfaceCount", referenced from:      _testddc in libddc.a(ddc.o)  "_CGDisplayIOServicePort", referenced from:      _testddc in libddc.a(ddc.o)  "_CGMainDisplayID", referenced from:      _testddc in libddc.a(ddc.o)  "_CGGetActiveDisplayList", referenced from:      _testddc in libddc.a(ddc.o)      _testddc in libddc.a(ddc.o)  "_IOI2CInterfaceClose", referenced from:      _testddc in libddc.a(ddc.o)  "_IOI2CInterfaceOpen", referenced from:      _testddc in libddc.a(ddc.o)  "_IOFBCopyI2CInterfaceForBus", referenced from:      _testddc in libddc.a(ddc.o)  "_IOI2CSendRequest", referenced from:      _testddc in libddc.a(ddc.o)ld: symbol(s) not foundcollect2: ld returned 1 exit status23(4@36""_IOObjectRelease", referenced from:276636912#19#39#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#58#34#0(6@0"276636912#0#0#0#0#0"0(4@43""_IORegistryEntryGetPath", referenced from:276636912#92#46#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#138#34#0(6@0"276636912#0#0#0#0#0"0(4@45""_IOFBGetI2CInterfaceCount", referenced from:276636912#172#48#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#220#34#0(6@0"276636912#0#0#0#0#0"0(4@43""_CGDisplayIOServicePort", referenced from:276636912#254#46#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#300#34#0(6@0"276636912#0#0#0#0#0"0(4@36""_CGMainDisplayID", referenced from:276636912#334#39#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#373#34#0(6@0"276636912#0#0#0#0#0"0(4@43""_CGGetActiveDisplayList", referenced from:276636912#407#46#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#453#34#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#487#34#0(6@0"276636912#0#0#0#0#0"0(4@40""_IOI2CInterfaceClose", referenced from:276636912#521#43#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#564#34#0(6@0"276636912#0#0#0#0#0"0(4@39""_IOI2CInterfaceOpen", referenced from:276636912#598#42#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#640#34#0(6@0"276636912#0#0#0#0#0"0(4@47""_IOFBCopyI2CInterfaceForBus", referenced from:276636912#674#50#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#724#34#0(6@0"276636912#0#0#0#0#0"0(4@37""_IOI2CSendRequest", referenced from:276636912#758#40#0(6@0"276636912#0#0#0#0#0"0(13@27"_testddc in libddc.a(ddc.o)276636912#798#34#0(6@0"276636912#0#0#0#0#0"0(13@19"Symbol(s) not found276636912#832#24#0(6@0"276636912#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status276636912#856#36#0(6@0"276636912#0#0#0#0#0"0(0#0#0"4300882208#576"    cd /Users/jon/Projects/ddcctrl    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/jon/Projects/ddcctrl/build/Debug -L/Users/jon/Projects/ddc -L/Users/jon/Projects/ddcctrl/../libddc/build/Debug -L/Users/jon/Projects/ddcctrl/../ddc/build/Debug -F/Users/jon/Projects/ddcctrl/build/Debug -filelist /Users/jon/Projects/ddcctrl/build/ddcctrl.build/Debug/ddcctrl.build/Objects-normal/x86_64/ddcctrl.LinkFileList -mmacosx-version-min=10.6 -lddc -o /Users/jon/Projects/ddcctrl/build/Debug/ddcctrl1#
+
